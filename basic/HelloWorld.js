@@ -57,7 +57,7 @@ var arr = [1, 2, 3.14, 'Hello', null, true];
 print(arr);
 
 //noinspection JSDuplicatedDeclaration
-for (var i = 0; i < arr.length; i++){
+for ( i = 0; i < arr.length; i++){
     print(arr[i]);
 }
 // new Array(11,22,33,44)
