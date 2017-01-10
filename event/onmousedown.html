@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <script>
+        function myFunction(elmnt,clr,event){
+            elmnt.style.color=clr;
+            console.log(event)
+        }
+    </script>
+</head>
+<body>
+
+<p onmousedown="myFunction(this,'red','onmousedown')"
+   onmousemove="myFunction(this,'pink','onmousemove')"
+   onmouseenter="myFunction(this,'blue','onmouseenter')"
+   onmouseout="myFunction(this,'orange','onmouseout')"
+   onmouseup="myFunction(this,'green','onmouseup')">
+    单击文本改变颜色。触发一个带参数函数,当鼠标按钮被按下,,当释放鼠标按钮，再一次触发其他参数函数
+</p>
+
+</body>
+</html>

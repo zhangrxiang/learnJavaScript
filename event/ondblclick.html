@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        function myFunction(){
+            var demo = document.getElementById("demo");
+            if(demo.innerHTML == ""){
+                demo.innerHTML="Hello World"
+            }else {
+                demo.innerHTML=""
+            }
+        }
+    </script>
+</head>
+<body>
+
+<p ondblclick="myFunction()">双击这段触发一个函数</p>
+
+<p id="demo"></p>
+
+</body>
+</html>
